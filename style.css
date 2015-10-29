@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  height: 50px;
+  height: 75px;
   padding: 25px;
 }
 
@@ -16,8 +16,14 @@ header img {
   width: 100%;
 }
 
+.banner h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
 .projects {
   padding: 0 10%;
+  margin-bottom: 50px;
 }
 
 .projects-header {
@@ -38,4 +44,26 @@ header img {
 
 .project img {
   width: 100%
+}
+
+footer {
+  background: rgb(20,35,75);
+  padding: 25px 10px;
+  color: #fff;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+footer ul li {
+  display: inline;
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: underline;
+  color: #fff;
 }
