@@ -122,6 +122,10 @@ header nav.collapsible ul li a {
   width: 100%;
 }
 
+#members img {
+  width: 100%;
+}
+
 footer {
   background: #202020;
   padding: 25px 10px;
