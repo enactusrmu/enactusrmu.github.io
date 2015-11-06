@@ -1,0 +1,143 @@
+html {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+}
+
+header {
+  background: #fff;
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+header img {
+  height: 100%;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 25px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 1.15rem;
+}
+
+header nav.collapsible {
+  background: #fff;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+}
+
+header nav.collapsible ul {
+  text-align: center;
+}
+
+header nav.collapsible ul li {
+  display: block;
+  line-height: 100px;
+}
+
+header nav.collapsible ul li a {
+
+}
+
+.collapse {
+  display: none;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.section-wrapper {
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+}
+
+#overview .section-wrapper {
+  background: url(../img/what-bg.png);
+}
+
+#overview h1 {
+  border-bottom: 1px solid #FFC222;
+}
+
+#overview .section-header {
+  max-width: 480px;
+  margin: 10px auto;
+}
+
+.part h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #FFC222;
+}
+
+.section-wrapper h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+footer {
+  background: rgb(20,35,75);
+  padding: 25px 10px;
+  color: #fff;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+footer ul li {
+  display: inline;
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: underline;
+  color: #fff;
+}

@@ -4,37 +4,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Enactus RMU</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="skeleton.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
       <img src="./img/logo.png" alt="Enactus Logo">
+      <nav class="hidden-xs">
+        <ul>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+      <nav class="collapsible visible-xs">
+        <ul class="">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
     </header>
-    <div class="banner">
-      <picture>
-        <source srcset="./img/group-mobile.jpg" media="(max-width: 720px)">
-        <img src="./img/group.png" alt="Group Photo">
-      </picture>
-      <h1>Enactus @ Robert Morris University!</h1>
-    </div>
-    <div class="projects-section">
-      <div class="projects-header">
-        <div class="projects-overlay">
-          <h1>Projects</h1>
+    <div id="overview">
+      <div class="section-wrapper">
+        <div class="section-header">
+          <h1>What is Enactus?</h1>
+          <div class="definition">
+            <p>Enactus is a community of student, academic and business leaders committed to using the power of entrepreneurial action to transform lives and shape a better more sustainable world.</p>
+          </div>
+        </div>
+        <div class="section-body row">
+          <div class="part col-xs-12 col-sm-4">
+            <h2><span class="highlight">En</span>trepreneurial</h2>
+             <p>Initiating ideas and business solutions with passion and innovation</p>
+          </div>
+          <div class="part col-xs-12 col-sm-4">
+            <h2><span class="highlight">Act</span>ion</h2>
+            <p>The experience of sustainable impact, activated with integrity</p>
+          </div>
+          <div class="part col-xs-12 col-sm-4">
+            <h2><span class="highlight">Us</span></h2>
+            <p>Student, academic and business leaders collaborating to create a better world</p>
+          </div>
         </div>
       </div>
-      <div class="projects row">
-        <div class="project four columns">
-          <img src="./img/projectu.png" alt="Project U">
-        </div>
-        <div class="project four columns">
-          <img src="./img/projectr.png" alt="Project R">
-        </div>
-        <div class="project four columns">
-          <img src="./img/projectg.png" alt="Project G">
-        </div>
+    </div>
+    <div id="members">
+      <div class="section-wrapper">
+        <h1>Meet the Team</h1>
+      </div>
+    </div>
+    <div id="projects">
+      <div class="section-wrapper">
+        <h1>See our Work</h1>
       </div>
     </div>
     <footer>
