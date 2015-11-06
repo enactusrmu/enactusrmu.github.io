@@ -11,18 +11,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  padding-top: 70px;
 }
 
 header {
   background: #fff;
   height: 70px;
   padding: 10px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 9999;
 }
 
 header img {
@@ -49,7 +43,6 @@ header nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #202020;
-  font-size: 1.15rem;
 }
 
 header nav.collapsible {
@@ -77,32 +70,36 @@ header nav.collapsible ul li a {
   display: none;
 }
 
-.banner img {
-  width: 100%;
-}
-
-.banner h1 {
-  text-align: center;
-  margin: 50px 0;
-}
-
 .section-wrapper {
   text-align: center;
-  color: #fff;
   padding: 25px;
 }
 
 #overview .section-wrapper {
-  background: url(../img/what-bg.png);
+  background: url(../img/overview_bg.png);
+  color: #fff;
 }
 
-#overview h1 {
+#projects .section-wrapper {
+  background: url(../img/projects_bg.png);
+  color: #fff;
+}
+
+.section-header {
+  max-width: 480px;
+  margin: 10px auto;
+}
+
+.section-header h1 {
   border-bottom: 1px solid #FFC222;
 }
 
-#overview .section-header {
-  max-width: 480px;
-  margin: 10px auto;
+#overview h1 {
+  margin-bottom: 0;
+}
+
+#members h1 {
+  border-bottom: 1px solid #14234B;
 }
 
 .part h2 {
@@ -117,11 +114,16 @@ header nav.collapsible ul li a {
 .section-wrapper h1 {
   font-size: 3rem;
   margin: 10px 0;
+  margin-bottom: 50px;
   padding: 10px 0;
 }
 
+.project img {
+  width: 100%;
+}
+
 footer {
-  background: rgb(20,35,75);
+  background: #202020;
   padding: 25px 10px;
   color: #fff;
 }
